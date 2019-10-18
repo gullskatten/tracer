@@ -38,3 +38,8 @@ Output:
 16:29:58.182  INFO  com.tyrill.tracer.TestWithTracer : 100 isolated invocations took: 203058 MICROSECONDS
 16:29:58.184  INFO  com.tyrill.tracer.TestWithTracer : Average: 2045.55 MICROSECONDS
 ```
+
+### TODO
+* Add option for failure "threshold": so that the test will fail if execution time takes longer than this threshold.
+* Maven-central / gradle availability. 
+* Support Trace of non-test methods using simple AOP.
